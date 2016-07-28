@@ -1,0 +1,1 @@
+generatebin.sh 将组合prloader,uboot,kernel,fs,fpga产生一个.bin文件 

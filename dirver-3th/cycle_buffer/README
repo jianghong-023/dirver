@@ -1,0 +1,16 @@
+注意睡眠与唤醒的过程。
+
+一：
+1) 睡眠前记得要释放标志，以防止其它进程不能获得此标志
+2）对唤醒后要确认是否有其它进程以先于本进程获得了此信号
+
+二：
+wait_event_interruptible 等价于
+	prepare_to_wait()
+	if(xxxxx)
+	schedule()
+	
+	finish_wait()
+	if(signal_pending(current))
+	return -ERESTARTSYS;
+	

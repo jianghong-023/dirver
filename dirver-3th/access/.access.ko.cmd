@@ -1,0 +1,1 @@
+cmd_/home/jiang/tftpboot/dirver-3th/access/access.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/jiang/linux-socfpga/scripts/module-common.lds --build-id  -o /home/jiang/tftpboot/dirver-3th/access/access.ko /home/jiang/tftpboot/dirver-3th/access/access.o /home/jiang/tftpboot/dirver-3th/access/access.mod.o

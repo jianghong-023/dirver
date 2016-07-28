@@ -1,0 +1,1 @@
+cmd_/home/jiang/tftpboot/dirver-3th/scull.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/jiang/linux-socfpga/scripts/module-common.lds --build-id  -o /home/jiang/tftpboot/dirver-3th/scull.ko /home/jiang/tftpboot/dirver-3th/scull.o /home/jiang/tftpboot/dirver-3th/scull.mod.o
